@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078B6391E5115A764C66833C /* libPods-MQFrameworkTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22292707240B83570B53D2BF /* libPods-MQFrameworkTool.a */; };
+		482469CD20F60F59001FEF0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 482469CC20F60F59001FEF0B /* AppDelegate.m */; };
+		482469D020F60F59001FEF0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482469CF20F60F59001FEF0B /* ViewController.m */; };
+		482469D320F60F59001FEF0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482469D120F60F59001FEF0B /* Main.storyboard */; };
+		482469D520F60F5A001FEF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482469D420F60F5A001FEF0B /* Assets.xcassets */; };
+		482469D820F60F5A001FEF0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482469D620F60F5A001FEF0B /* LaunchScreen.storyboard */; };
+		482469DB20F60F5A001FEF0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 482469DA20F60F5A001FEF0B /* main.m */; };
+		482469E520F60F5A001FEF0B /* MQFrameworkToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 482469E420F60F5A001FEF0B /* MQFrameworkToolTests.m */; };
+		482469F020F60F5A001FEF0B /* MQFrameworkToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 482469EF20F60F5A001FEF0B /* MQFrameworkToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		482469E120F60F5A001FEF0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482469C020F60F59001FEF0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 482469C720F60F59001FEF0B;
+			remoteInfo = MQFrameworkTool;
+		};
+		482469EC20F60F5A001FEF0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482469C020F60F59001FEF0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 482469C720F60F59001FEF0B;
+			remoteInfo = MQFrameworkTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AF7383830CE2FD80EC0E361 /* Pods-MQFrameworkTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQFrameworkTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MQFrameworkTool/Pods-MQFrameworkTool.debug.xcconfig"; sourceTree = "<group>"; };
+		22292707240B83570B53D2BF /* libPods-MQFrameworkTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MQFrameworkTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		482469C820F60F59001FEF0B /* MQFrameworkTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQFrameworkTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		482469CB20F60F59001FEF0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		482469CC20F60F59001FEF0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		482469CE20F60F59001FEF0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		482469CF20F60F59001FEF0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		482469D220F60F59001FEF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		482469D420F60F5A001FEF0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		482469D720F60F5A001FEF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		482469D920F60F5A001FEF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		482469DA20F60F5A001FEF0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		482469E020F60F5A001FEF0B /* MQFrameworkToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQFrameworkToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		482469E420F60F5A001FEF0B /* MQFrameworkToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQFrameworkToolTests.m; sourceTree = "<group>"; };
+		482469E620F60F5A001FEF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		482469EB20F60F5A001FEF0B /* MQFrameworkToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQFrameworkToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		482469EF20F60F5A001FEF0B /* MQFrameworkToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQFrameworkToolUITests.m; sourceTree = "<group>"; };
+		482469F120F60F5A001FEF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5DF9805E86857DEE247C4F /* Pods-MQFrameworkTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQFrameworkTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-MQFrameworkTool/Pods-MQFrameworkTool.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		482469C520F60F59001FEF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078B6391E5115A764C66833C /* libPods-MQFrameworkTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482469DD20F60F5A001FEF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482469E820F60F5A001FEF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43D5F929517B958E5D35B22E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22292707240B83570B53D2BF /* libPods-MQFrameworkTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		482469BF20F60F59001FEF0B = {
+			isa = PBXGroup;
+			children = (
+				482469CA20F60F59001FEF0B /* MQFrameworkTool */,
+				482469E320F60F5A001FEF0B /* MQFrameworkToolTests */,
+				482469EE20F60F5A001FEF0B /* MQFrameworkToolUITests */,
+				482469C920F60F59001FEF0B /* Products */,
+				B58C601C2ADDD1B408435A93 /* Pods */,
+				43D5F929517B958E5D35B22E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		482469C920F60F59001FEF0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				482469C820F60F59001FEF0B /* MQFrameworkTool.app */,
+				482469E020F60F5A001FEF0B /* MQFrameworkToolTests.xctest */,
+				482469EB20F60F5A001FEF0B /* MQFrameworkToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		482469CA20F60F59001FEF0B /* MQFrameworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				482469CB20F60F59001FEF0B /* AppDelegate.h */,
+				482469CC20F60F59001FEF0B /* AppDelegate.m */,
+				482469CE20F60F59001FEF0B /* ViewController.h */,
+				482469CF20F60F59001FEF0B /* ViewController.m */,
+				482469D120F60F59001FEF0B /* Main.storyboard */,
+				482469D420F60F5A001FEF0B /* Assets.xcassets */,
+				482469D620F60F5A001FEF0B /* LaunchScreen.storyboard */,
+				482469D920F60F5A001FEF0B /* Info.plist */,
+				482469DA20F60F5A001FEF0B /* main.m */,
+			);
+			path = MQFrameworkTool;
+			sourceTree = "<group>";
+		};
+		482469E320F60F5A001FEF0B /* MQFrameworkToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				482469E420F60F5A001FEF0B /* MQFrameworkToolTests.m */,
+				482469E620F60F5A001FEF0B /* Info.plist */,
+			);
+			path = MQFrameworkToolTests;
+			sourceTree = "<group>";
+		};
+		482469EE20F60F5A001FEF0B /* MQFrameworkToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				482469EF20F60F5A001FEF0B /* MQFrameworkToolUITests.m */,
+				482469F120F60F5A001FEF0B /* Info.plist */,
+			);
+			path = MQFrameworkToolUITests;
+			sourceTree = "<group>";
+		};
+		B58C601C2ADDD1B408435A93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AF7383830CE2FD80EC0E361 /* Pods-MQFrameworkTool.debug.xcconfig */,
+				5D5DF9805E86857DEE247C4F /* Pods-MQFrameworkTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		482469C720F60F59001FEF0B /* MQFrameworkTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 482469F420F60F5A001FEF0B /* Build configuration list for PBXNativeTarget "MQFrameworkTool" */;
+			buildPhases = (
+				45809387AA35539C39E1ABA8 /* [CP] Check Pods Manifest.lock */,
+				482469C420F60F59001FEF0B /* Sources */,
+				482469C520F60F59001FEF0B /* Frameworks */,
+				482469C620F60F59001FEF0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQFrameworkTool;
+			productName = MQFrameworkTool;
+			productReference = 482469C820F60F59001FEF0B /* MQFrameworkTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		482469DF20F60F5A001FEF0B /* MQFrameworkToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 482469F720F60F5A001FEF0B /* Build configuration list for PBXNativeTarget "MQFrameworkToolTests" */;
+			buildPhases = (
+				482469DC20F60F5A001FEF0B /* Sources */,
+				482469DD20F60F5A001FEF0B /* Frameworks */,
+				482469DE20F60F5A001FEF0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				482469E220F60F5A001FEF0B /* PBXTargetDependency */,
+			);
+			name = MQFrameworkToolTests;
+			productName = MQFrameworkToolTests;
+			productReference = 482469E020F60F5A001FEF0B /* MQFrameworkToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		482469EA20F60F5A001FEF0B /* MQFrameworkToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 482469FA20F60F5A001FEF0B /* Build configuration list for PBXNativeTarget "MQFrameworkToolUITests" */;
+			buildPhases = (
+				482469E720F60F5A001FEF0B /* Sources */,
+				482469E820F60F5A001FEF0B /* Frameworks */,
+				482469E920F60F5A001FEF0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				482469ED20F60F5A001FEF0B /* PBXTargetDependency */,
+			);
+			name = MQFrameworkToolUITests;
+			productName = MQFrameworkToolUITests;
+			productReference = 482469EB20F60F5A001FEF0B /* MQFrameworkToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		482469C020F60F59001FEF0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MQ;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mengJing;
+				TargetAttributes = {
+					482469C720F60F59001FEF0B = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					482469DF20F60F5A001FEF0B = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 482469C720F60F59001FEF0B;
+					};
+					482469EA20F60F5A001FEF0B = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 482469C720F60F59001FEF0B;
+					};
+				};
+			};
+			buildConfigurationList = 482469C320F60F59001FEF0B /* Build configuration list for PBXProject "MQFrameworkTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 482469BF20F60F59001FEF0B;
+			productRefGroup = 482469C920F60F59001FEF0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				482469C720F60F59001FEF0B /* MQFrameworkTool */,
+				482469DF20F60F5A001FEF0B /* MQFrameworkToolTests */,
+				482469EA20F60F5A001FEF0B /* MQFrameworkToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		482469C620F60F59001FEF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482469D820F60F5A001FEF0B /* LaunchScreen.storyboard in Resources */,
+				482469D520F60F5A001FEF0B /* Assets.xcassets in Resources */,
+				482469D320F60F59001FEF0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482469DE20F60F5A001FEF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482469E920F60F5A001FEF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45809387AA35539C39E1ABA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MQFrameworkTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		482469C420F60F59001FEF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482469D020F60F59001FEF0B /* ViewController.m in Sources */,
+				482469DB20F60F5A001FEF0B /* main.m in Sources */,
+				482469CD20F60F59001FEF0B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482469DC20F60F5A001FEF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482469E520F60F5A001FEF0B /* MQFrameworkToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482469E720F60F5A001FEF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482469F020F60F5A001FEF0B /* MQFrameworkToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		482469E220F60F5A001FEF0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 482469C720F60F59001FEF0B /* MQFrameworkTool */;
+			targetProxy = 482469E120F60F5A001FEF0B /* PBXContainerItemProxy */;
+		};
+		482469ED20F60F5A001FEF0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 482469C720F60F59001FEF0B /* MQFrameworkTool */;
+			targetProxy = 482469EC20F60F5A001FEF0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		482469D120F60F59001FEF0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				482469D220F60F59001FEF0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		482469D620F60F5A001FEF0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				482469D720F60F5A001FEF0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		482469F220F60F5A001FEF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		482469F320F60F5A001FEF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		482469F520F60F5A001FEF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF7383830CE2FD80EC0E361 /* Pods-MQFrameworkTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68Y53JA7M6;
+				INFOPLIST_FILE = MQFrameworkTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MQFrameworkTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		482469F620F60F5A001FEF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5DF9805E86857DEE247C4F /* Pods-MQFrameworkTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68Y53JA7M6;
+				INFOPLIST_FILE = MQFrameworkTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MQFrameworkTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		482469F820F60F5A001FEF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MQFrameworkToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MQFrameworkToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQFrameworkTool.app/MQFrameworkTool";
+			};
+			name = Debug;
+		};
+		482469F920F60F5A001FEF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MQFrameworkToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MQFrameworkToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQFrameworkTool.app/MQFrameworkTool";
+			};
+			name = Release;
+		};
+		482469FB20F60F5A001FEF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MQFrameworkToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MQFrameworkToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MQFrameworkTool;
+			};
+			name = Debug;
+		};
+		482469FC20F60F5A001FEF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MQFrameworkToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MQFrameworkToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MQFrameworkTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		482469C320F60F59001FEF0B /* Build configuration list for PBXProject "MQFrameworkTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482469F220F60F5A001FEF0B /* Debug */,
+				482469F320F60F5A001FEF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		482469F420F60F5A001FEF0B /* Build configuration list for PBXNativeTarget "MQFrameworkTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482469F520F60F5A001FEF0B /* Debug */,
+				482469F620F60F5A001FEF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		482469F720F60F5A001FEF0B /* Build configuration list for PBXNativeTarget "MQFrameworkToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482469F820F60F5A001FEF0B /* Debug */,
+				482469F920F60F5A001FEF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		482469FA20F60F5A001FEF0B /* Build configuration list for PBXNativeTarget "MQFrameworkToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482469FB20F60F5A001FEF0B /* Debug */,
+				482469FC20F60F5A001FEF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 482469C020F60F59001FEF0B /* Project object */;
+}
