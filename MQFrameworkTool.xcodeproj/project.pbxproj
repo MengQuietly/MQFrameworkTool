@@ -16,6 +16,8 @@
 		482469DB20F60F5A001FEF0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 482469DA20F60F5A001FEF0B /* main.m */; };
 		482469E520F60F5A001FEF0B /* MQFrameworkToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 482469E420F60F5A001FEF0B /* MQFrameworkToolTests.m */; };
 		482469F020F60F5A001FEF0B /* MQFrameworkToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 482469EF20F60F5A001FEF0B /* MQFrameworkToolUITests.m */; };
+		48246A0320F613B5001FEF0B /* MQNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48246A0220F613B5001FEF0B /* MQNetworkManager.m */; };
+		48246A0620F66B40001FEF0B /* UIImage+compressIMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 48246A0520F66B40001FEF0B /* UIImage+compressIMG.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		482469EB20F60F5A001FEF0B /* MQFrameworkToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQFrameworkToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		482469EF20F60F5A001FEF0B /* MQFrameworkToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQFrameworkToolUITests.m; sourceTree = "<group>"; };
 		482469F120F60F5A001FEF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48246A0120F613B5001FEF0B /* MQNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQNetworkManager.h; sourceTree = "<group>"; };
+		48246A0220F613B5001FEF0B /* MQNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQNetworkManager.m; sourceTree = "<group>"; };
+		48246A0420F66B40001FEF0B /* UIImage+compressIMG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+compressIMG.h"; sourceTree = "<group>"; };
+		48246A0520F66B40001FEF0B /* UIImage+compressIMG.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+compressIMG.m"; sourceTree = "<group>"; };
 		5D5DF9805E86857DEE247C4F /* Pods-MQFrameworkTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQFrameworkTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-MQFrameworkTool/Pods-MQFrameworkTool.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +122,7 @@
 		482469CA20F60F59001FEF0B /* MQFrameworkTool */ = {
 			isa = PBXGroup;
 			children = (
+				482469FD20F61335001FEF0B /* AFNetworkLibTool */,
 				482469CB20F60F59001FEF0B /* AppDelegate.h */,
 				482469CC20F60F59001FEF0B /* AppDelegate.m */,
 				482469CE20F60F59001FEF0B /* ViewController.h */,
@@ -145,6 +152,17 @@
 				482469F120F60F5A001FEF0B /* Info.plist */,
 			);
 			path = MQFrameworkToolUITests;
+			sourceTree = "<group>";
+		};
+		482469FD20F61335001FEF0B /* AFNetworkLibTool */ = {
+			isa = PBXGroup;
+			children = (
+				48246A0120F613B5001FEF0B /* MQNetworkManager.h */,
+				48246A0220F613B5001FEF0B /* MQNetworkManager.m */,
+				48246A0420F66B40001FEF0B /* UIImage+compressIMG.h */,
+				48246A0520F66B40001FEF0B /* UIImage+compressIMG.m */,
+			);
+			path = AFNetworkLibTool;
 			sourceTree = "<group>";
 		};
 		B58C601C2ADDD1B408435A93 /* Pods */ = {
@@ -309,7 +327,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48246A0320F613B5001FEF0B /* MQNetworkManager.m in Sources */,
 				482469D020F60F59001FEF0B /* ViewController.m in Sources */,
+				48246A0620F66B40001FEF0B /* UIImage+compressIMG.m in Sources */,
 				482469DB20F60F5A001FEF0B /* main.m in Sources */,
 				482469CD20F60F59001FEF0B /* AppDelegate.m in Sources */,
 			);
@@ -485,7 +505,10 @@
 				DEVELOPMENT_TEAM = 68Y53JA7M6;
 				INFOPLIST_FILE = MQFrameworkTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MQFrameworkTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -501,7 +524,10 @@
 				DEVELOPMENT_TEAM = 68Y53JA7M6;
 				INFOPLIST_FILE = MQFrameworkTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MQFrameworkTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -514,7 +540,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MQFrameworkToolTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MQFrameworkToolTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -528,7 +558,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MQFrameworkToolTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MQFrameworkToolTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -541,7 +575,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MQFrameworkToolUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MQFrameworkToolUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -554,7 +592,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MQFrameworkToolUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MQFrameworkToolUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
